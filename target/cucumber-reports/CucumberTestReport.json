@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Customer Login",
+        "description": "",
+        "id": "customer-login;customer-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9768026000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Open banking website http://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 23
+                }
+              ],
+              "location": "cucumberLoginTest.Open_banking_website(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6303304800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click Customer Login button",
+            "match": {
+              "location": "cucumberLoginTest.clickCustomerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6279164300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I chose your name",
+            "match": {
+              "location": "cucumberLoginTest.chose_your_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6252991200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I chose name",
+            "match": {
+              "location": "cucumberLoginTest.chose_name()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Customer Login",
+        "description": "",
+        "id": "customer-login;customer-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6625439000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Open banking website http://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 23
+                }
+              ],
+              "location": "cucumberLoginTest.Open_banking_website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6098584500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Customer Login button",
+            "match": {
+              "location": "cucumberLoginTest.clickCustomerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6282023300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I chose your name",
+            "match": {
+              "location": "cucumberLoginTest.chose_your_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6284394500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I chose name",
+            "match": {
+              "location": "cucumberLoginTest.chose_name()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Customer Login",
+    "description": "",
+    "id": "customer-login",
+    "keyword": "Feature",
+    "uri": "src/main/java/features/customerLogin.feature"
+  }
+]
